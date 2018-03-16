@@ -1,0 +1,15 @@
+package zadanie;
+import java.util.Scanner;
+public class zadanie6 {
+    public static void main(String[] args){
+        Scanner skaner = new Scanner(System.in);
+        for(;;)
+        {
+            System.out.println("Podaj liczbę całkowitą ");
+            int x = skaner.nextInt();
+            if(x <0 ){
+            break;
+        }
+        } 
+    }
+}
